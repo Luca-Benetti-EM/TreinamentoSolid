@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LSP
+{
+    public class Quadrado : Retangulo
+    {
+        public Quadrado(int lado) : base(lado, lado)
+        {
+        }
+    }
+}
